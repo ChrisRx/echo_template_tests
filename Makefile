@@ -5,6 +5,7 @@ all: build
 deps:
 	@go get -u github.com/labstack/echo
 	@go get -u github.com/valyala/quicktemplate/qtc
+	@go get -u github.com/gorilla/securecookie
 
 build:
 	@echo -n "Building..."
